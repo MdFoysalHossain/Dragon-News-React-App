@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from '../Components/Header';
 import { Outlet } from 'react-router';
+import Latest from '../Components/Latest';
+import Navbar from '../Components/Navbar';
 
 const HomeLayout = () => {
     return (
         <div>
             <header>
                 <Header></Header>
+                <Latest></Latest>
+                <Navbar></Navbar>
             </header>
             <main>
                 <div className="">
